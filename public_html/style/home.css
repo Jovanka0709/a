@@ -1,0 +1,116 @@
+.container-poster{
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+}
+.poster-satu{
+    width: 60%;
+}
+.poster-satu img{
+    width: 100%;
+    height: 300px;;
+}
+.poster-dua{
+    width: 38%;
+    margin: 0 0 0 30px;
+}
+.poster-dua img{
+    width: 100%;
+    height: 205px;
+}
+.text-poster{
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    background-color: #333;
+    margin: 25px 0 0 0;
+}
+.text-poster h3{
+    font-size: 23px;
+    margin: auto;
+    color: #fff;
+}
+.container-kategori{
+    width: 80%;
+    margin: 30px auto;
+}
+.flex-kategori{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.box-kategori{
+    width: 16%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    background-color: #fafafa;
+}
+.tengah-kategori{
+    margin: auto;
+}
+.tengah-kategori img{
+    width: 70px;
+    height: 70px;
+}
+.tengah-kategori p{
+    text-align: center;
+    margin: 5px 0 0 0;
+}
+.box-kategori:hover{
+    background-color: #333;
+    color: white;
+}
+.container-produk{
+    width: 80%;
+    margin: 30px auto;
+}
+h3 span{
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #333;
+    color: white;
+}
+.input-produk{
+    margin: 5px auto;
+    width: 50%;
+    display: flex;
+}
+.flex-produk{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.box-produk{
+     width: 22%;
+     text-align: center;
+     margin: 30px 0 0 0;
+}
+.box-produk:hover{
+    background-color: #fff;
+}
+.box-produk img{
+    width: 100%;
+    height: 180px;
+}
+
+@media(max-width:900px){
+    .poster-dua{
+        display: none;
+    }
+    .poster-satu{
+        width: 100%;
+    }
+    .box-kategori{
+        width: 45%;
+        margin: 15px 0 0 0;
+    }
+    .box-produk{
+        width: 80%;
+    }
+    .input-produk{
+        width: 80%;
+    }
+}
+
